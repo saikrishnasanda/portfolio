@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Reddy Sai Krishna Sanda</title>
+
+<link rel="icon" type="image/x-icon" href="https://github.com/saichandan181/ChandanGPT/blob/main/_img/favicon.png?raw=true" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="assets/css/main.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+
+</style>
+</head>
+
+<body>
+
+<header id="header" class="header">
+<div class="container">
+<nav class="nav">
+<a href="#" class="nav__brand">@REDDY SAI KRISHNA SANDA</i></a>
+<div class="nav__menu" id="nav-menu">
+<ul class="nav__list">
+<li class="nav__item"><a href="#about"    class="nav__link">ABOUT ME</a></li>
+<!-- <li class="nav__item"><a href="#service"  class="nav__link">SERVICES</a></li> -->
+<li class="nav__item"><a href="#projects" class="nav__link">PROJECTS</a></li>
+<li class="nav__item"><a href="#blogs"    class="nav__link">EXPERIENCES</a></li>
+<li class="nav__item"><a href="#contact"  class="nav__link">CONTACT ME </a></li>
+
+<!-- PLAY AUDIO -->
+
+<audio loop="" id="audioPlayer" style="display:none" autoplay muted>
+    <source src="./assets/audio/audio.mp3" type="audio/mp3">
+</audio>
+
+<i id="playPauseIcon" class="fas fa-volume-mute" onclick="togglePlayPause()"></i>
+
+<script>
+    var audio = document.getElementById("audioPlayer");
+    var playPauseIcon = document.getElementById("playPauseIcon");
+
+    function togglePlayPause() {
+        if (audio.paused) {
+            audio.play();
+            audio.muted = false; // Unmute when playing
+            playPauseIcon.className = "fas fa-volume-up"; // Change to volume up icon when playing
+        } else {
+            audio.pause();
+            audio.muted = true; // Mute when paused
+            playPauseIcon.className = "fas fa-volume-mute"; // Change to volume mute icon when paused
+        }
+    }
+</script>
+
+<!-- 
+<button onclick="togglePlayPause()">
+    <i id="playPauseIcon" class="fas fa-volume-up"></i>
+</button>
+
+<script>
+    var audio = document.getElementById("myAudio");
+    var playPauseIcon = document.getElementById("playPauseIcon");
+
+    function togglePlayPause() {
+        if (audio.paused) {
+            audio.play();
+            playPauseIcon.className = "fas fa-volume-mute"; // Change to mute icon when playing
+        } else {
+            audio.pause();
+            playPauseIcon.className = "fas fa-volume-up"; // Change to speaker icon when paused
+        }
+    }
+</script>
+-->
+
+</ul>
+</div>
+<div class="nav__toggle">
+<i id="nav-toggle" class="ri-menu-3-line"></i>
+</div>
+</nav>
+</div>
+</header>
+
+<main class="main">
+<section id="hero" class="hero">
+<div class="container">
+<div class="d-grid hero__wrapper">
+<div class="hero__content">
+   
+<h1 class="hero__title">Hi, I'm Reddy Sai Krishna Sanda<br>Master's in Information Technology at UNC Charlotte 🎓
+    <br>Data Analyst | Business Analyst | Tableau 📈📊;</h1>
+</div>
+<img src="./assets/images/profilepic-bg.png" alt="@saikrishna" class="hero__img"/>
+</div>
+</div>
+</section>
+
+<!-- About  -->
+
+<section id="about" class="section about">
+<div class="container">
+<div class="section__header">
+<h2 class="section__title">ABOUT ME</h2>
+<span class="section__subtitle">WHO AM I</span>
+</div>
+<div class="d-grid about__wrapper">
+<div class="about__content">
+<h3 class="about__title">I'm an enthusiast Data Analyst</h3>
+<p class="about__description">
+    With a Master of Science in Information Technology from the University of North Carolina at Charlotte and a proven track record in data analytics and software engineering, Throughout my academic journey, I have gained a solid foundation in programming applications with Java, Python, and SQL as well as hands-on experience with Big Data tools and Cloud technologies. With expertise in tools like Tableau, Power BI, and a host of AWS and Azure technologies, I excel in extracting actionable insights from complex datasets, optimizing data processing workflows, and delivering visually compelling dashboards and reports. 
+
+I have demonstrated a strong aptitude for problem-solving and a drive for continuous improvement. From deploying efficient data ingestion pipelines to spearheading the adoption of emerging technologies such as AWS Lambda and Glue. I like to apply my technical skills and passion for innovation to new challenges in information technology.
+</p>
+<a href="./assets/images/Reddy Sai Krishna Sanda.pdf" class="btn btn--primary">Explore My Resume</a>
+</div>
+
+
+<div class="skills">
+<h3 class="skills__title">My Technical Skills</h3>
+<div class="skills__wrapper">
+<div class="skills__content">
+
+<ul class="skills__list">
+<li class="skills__item">
+<i class=""></i> □ Python
+</li>
+<li class="skills__item">
+<i class=""></i> □ SQL
+</li>
+<li class="skills__item">
+<i class=""></i> □ JavaScript
+</li>
+<li class="skills__item">
+<i class=""></i> □ HTML
+</li>
+<li class="skills__item">
+<i class=""></i> □ CSS
+</li>
+<li class="skills__item">
+<i class=""></i> □ AWS
+</li>
+<li class="skills__item">
+<i class=""></i> □ Azure
+</li>
+<li class="skills__item">
+<i class=""></i> □ NumPy
+</li>
+<li class="skills__item">
+<i class=""></i> □ Matplotlib
+</li>
+<li class="skills__item">
+<i class=""></i> □ Seaborn
+</li>
+<!-- <li class="skills__item">
+<i class=""></i> □ MongoDB
+</li>
+
+<li class="skills__item">
+<i class=""></i> □ Power BI
+</li>
+<li class="skills__item">
+<i class=""></i> □ Tableau
+</li> -->
+
+</ul>
+</div>
+<div class="skills__content">
+<ul class="skills__list">
+
+<li class="skills__item">
+<i class=""></i> □ Tableau
+</li>
+<li class="skills__item">
+<i class=""></i> □ PowerBI
+</li>
+<li class="skills__item">
+<i class=""></i> □ Redshift
+</li>
+<li class="skills__item">
+<i class=""></i> □ AWS QuickSight
+</li>
+<li class="skills__item">
+<i class=""></i> □ QlikSense
+</li>
+<li class="skills__item">
+<i class=""></i> □ Looker
+</li>
+<li class="skills__item">
+<i class=""></i> □ Athena
+</li>
+<li class="skills__item">
+<i class=""></i> □ Snowflake
+</li>
+<li class="skills__item">
+<i class=""></i> □ Apache Spark
+</li>
+<li class="skills__item">
+<i class=""></i> □ Databricks
+</li>
+<!-- <li class="skills__item">
+<i class=""></i> □ Netron
+</li> -->
+
+</ul>
+</div>
+</div>
+</div>
+
+</section>
+
+<!-- services  -->
+<!-- <section id="service" class="section service">
+<div class="container">
+<div class="section__header">
+<h2 class="section__title">SERVICES</h2>
+<span class="section__subtitle">HOW CAN I HELP</span>
+</div>
+<div class="d-grid service__wrapper">
+
+<!-- service card 1 -->
+<!-- <div class="service__card">
+<div class="service__icon">
+</div>
+<h3 class="service__title">MACHINE LEARNING<br/>
+</h3>
+</div>
+
+<div class="service__card">
+<div class="service__icon">
+</div>
+<h3 class="service__title">DATA SCIENCE</h3>
+</div>
+
+<div class="service__card">
+<div class="service__icon">
+</div>
+<h3 class="service__title">CONTENT CREATION</h3>
+</div>
+</div>
+</div>
+</section> --> -->
+
+<!-- Projects -->
+<section id="projects" class="section project">
+<div class="container">
+<div class="section__header">
+<h2 class="section__title">Projects</h2>
+<span class="section__subtitle">My recent work</span>
+
+</div>
+<div class="d-grid project__wrapper">
+
+<!-- pr#1 -->
+<div class="project__content">
+<img src="./assets/images/tableau.png" alt="project(1)" class="project__img"/>
+<h3 class="project__title">Salaries Dashboard</h3>
+<p class="project__description">The "Salaries Dashboard" is a comprehensive Tableau visualization project that provides insightful analysis of salaries and employment data across various job roles, experience levels, and geographic locations. The dashboard presents a range of interactive charts and maps that allow users to explore and understand salary trends, company sizes, and employment types within the data analytics and technology industries. Overall, the "Salaries Dashboard" is a powerful tool for data professionals, HR managers, and job seekers to gain valuable insights into salary trends, employment patterns, and regional dynamics within the data analytics and technology fields.✨</p>
+<!--<a href="https://github.com/saichandan181/ChandanGPT" class="project__link">Source Code <i class="ri-arrow-right-line"></i></a>-->
+<a href="https://public.tableau.com/app/profile/reddy.sai.krishna.sanda7525/viz/SalariesDashboard_17050809153910/Dashboard1?publish=yes" class="project__link">Demo <i class="ri-arrow-right-line"></i></a>
+</div>
+
+<!-- pr#2 -->
+<div class="project__content">
+<img src="./assets/images/streamlit.png" alt="project(2)" class="project__img"/>
+<h3 class="project__title">IPL Dashboard</h3>
+<p class="project__description">Processed and analyzed structured data in Excel, achieving a 90% increase in data accuracy. Developed interactive dashboards using Streamlit, facilitating user engagement and data exploration. Visualized player statistics and performance trends spanning multiple years, enhancing data comprehension. Enable users to filter data based on different criteria, such as team, and player. Provide insights and analysis of the data using visualizations and descriptive statistics. By achieving these goals, the IPL dashboard will serve as a valuable resource for fans, analysts, and stakeholders to stay informed, engaged, and competitive in the world of cricket.🚀🧬✨</p>
+<a href="https://github.com/saikrishnasanda/IPL-Dashboard-Visualization" class="project__link">Source Code <i class="ri-arrow-right-line"></i></a>
+<a href="https://ipldashboardsai.streamlit.app/" class="project__link">Demo <i class="ri-arrow-right-line"></i></a>
+</div>
+
+<!-- pr#3 -->
+<div class="project__content">
+<img src="./assets/images/house.jpeg" alt="project(3)" class="project__img"/>
+<h3 class="project__title">California House Price Prediction</h3>
+<p class="project__description">Transformed unstructured data into structured format through data cleansing. Built a Quick Sight visualization dashboard which provides a holistic view of all datasets thereby reducing time spent by 80%. Enhanced understanding of median house prices across different locations, resulting in a 20% increase in the efficiency of real estate investments.📑✨ <br> <br> <br> <br> <br> </p>
+<a href="https://github.com/saikrishnasanda/bigdata/blob/main/Project%20Files/AWS%20Sagemaker/house%20price%20prediction.ipynb" class="project__link">Source Code <i class="ri-arrow-right-line"></i></a>
+<a href="https://github.com/saikrishnasanda/bigdata/blob/main/Project%20Files/AWS%20Quicksight/AWS%20Quicksight.pdf" class="project__link">Demo <i class="ri-arrow-right-line"></i></a>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!-- blog -->
+<section id="blogs" class="section project">
+<div class="container">
+<div class="section__header">
+<h2 class="section__title">Experience</h2>
+<span class="section__subtitle">My Past Experiences</span>
+
+</div>
+<div class="d-grid project__wrapper">
+
+<!-- pr#1 -->
+<div class="project__content">
+<img src="./assets/images/uncc.png" alt="project(1)" class="project__img"/>
+<h3 class="project__title">Graduate Assistant <br>(Sep 2022- Dec 2023)</h3>
+<h4 class="project__title">The University of North Carolina at Charlotte</h4>
+<p class="project__description">Through the strategic utilization of Tableau, a plethora of insightful charts were crafted, aiding in the synthesis of meaningful findings and the construction of a cohesive narrative across the dataset. Additionally, employing AWS Glue, Amazon EMR, and Amazon S3 storage, over 10 efficient data ingestion pipelines were established, culminating in a notable 30% reduction in data processing time. The integration of data from 15 diverse sources, including RDS databases, Redshift databases, S3 objects, and RESTful APIs, saw a substantial 40% increase in data availability and accessibility. Further enhancements were made through the implementation of advanced query optimization and indexing techniques, resulting in a 25% decrease in query execution time. Moreover, the deployment of 5 custom functions utilizing AWS Lambda, Amazon EMR, and AWS Glue scripts facilitated seamless data transformation, cleansing, and validation, yielding a commendable 20% improvement in data quality and accuracy.</p>
+<!-- <a href="#" class="project__link">Read More <i class="ri-arrow-right-line"></i></a> -->
+</div>
+
+<!-- pr#2 -->
+<div class="project__content">
+<img src="./assets/images/accenture.png" alt="project(2)" class="project__img"/>
+<h3 class="project__title">Data Analyst <br>(Apr 2020 - Jul 2022)</h3>
+<h4 class="project__title">Accenture Solutions Pvt. Ltd</h4>
+<p class="project__description">Demonstrated adeptness in leveraging AWS services, dynamic reports were crafted using AWS QuickSight, fostering enhanced data accessibility and comprehension among financial analysts. Report interactivity was further enriched through AWS Lambda integration, facilitating real-time data updates and drill-down capabilities. Implementation of AWS Glue automated data cleansing and validation processes, leading to a commendable 40% reduction in data discrepancies. SQL scripts were utilized to ensure data quality checks, ensuring adherence to regulatory standards. Utilized Python and SQL, comprehensive analysis of financial datasets stored in AWS S3 and Redshift yielded a remarkable 70% improvement in identifying market trends and investment opportunities. Additionally, adept handling of complex SQL operations and the integration of various machine learning algorithms via Python resulted in a notable 20% enhancement in database efficiency and a remarkable 98% accuracy rate in predicting market movements. The initiative to upskill team members through workshops on AWS technologies and spearheading the adoption of emerging technologies like AWS Lambda and Glue contributed to optimizing data processing workflows, reducing processing time by 30%. Moreover, the design and development of visually engaging dashboards using Tableau significantly contributed to a substantial 25% increase in revenue by effectively presenting data insights and key performance indicators to stakeholders.</p>
+<!-- <a href="#" class="project__link">Read More <i class="ri-arrow-right-line"></i></a> -->
+</div>
+
+<!-- pr#3 -->
+<div class="project__content">
+<img src="./assets/images/leeway.jpeg" alt="project(3)" class="project__img"/>
+<h3 class="project__title">Data Analyst Intern <br>(Jan 2020 - Mar 2020)</h3>
+<h4 class="project__title">LeewayHertz</h4>
+<p class="project__description"> Utilized Python scripts and Azure Data Factory, millions of records of structured and semi-structured data were efficiently extracted and transformed from diverse sources, including SQL databases, flat files, and APIs, reducing manual effort by 50% and ensuring seamless data flow. Highly efficient ETL pipelines, powered by Python and PySpark within the Azure Databricks framework, enhanced overall data quality by 80% through comprehensive data cleansing, validation, and standardization processes. A centralized data lake was designed and implemented on Azure Storage, streamlining data ingestion, storage, and retrieval, while Azure Data Lake Analytics and Databricks were adeptly leveraged for complex analytical queries and data processing tasks. Transformation of Snowflake data into JSON objects on Azure Databricks yielded a 20% reduction in storage costs, with further optimization in Azure Data Factory, while rendering Snowflake view data in PowerBI enhanced user engagement by 15% with visually compelling dashboards. Exploratory data analysis employing statistical techniques and machine learning models using Python and SQL uncovered valuable insights, resulting in a notable 90% improvement in a key performance indicator for the medical client. Additionally, interactive dashboards and reports developed in PowerBI facilitated data-driven decision-making across departments, and real-time data ingestion pipelines using Azure Stream Analytics enabled the analysis and processing of streaming data from IoT devices and other sources, fostering faster response times and improved operational efficiency.</p>
+<!-- <a href="#" class="project__link">Read More <i class="ri-arrow-right-line"></i></a> -->
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+<!--Contact -->
+<section id="contact" class="section contact">
+<div class="container">
+<div class="contact__wrapper">
+<div class="contact__content">
+<h2 class="contact__title">
+Interested in working together? Let's talk and Connect
+</h2>
+</div>
+<div class="contact__btn">
+<a href="https://www.linkedin.com/in/saikrishna2000" target="_blank" class="btn btn--secondary">LinkedIn</a>
+</div>
+</div>
+</div>
+
+</section>
+</main>
+
+<footer id="footer" class="footer">
+<div class="container">
+<div class="d-grid footer__wrapper">
+<div class="footer__content">
+<h4 class="footer__title">Follow Me</h4>
+<ul class="footer__social-list">
+    <li class="footer__social-item">
+        <a href="https://www.instagram.com/saichandan.sanda" class="footer__social-link">
+    <i class="ri-instagram-fill"></i>
+</a>
+</li>
+<li class="footer__social-item">
+<a href="https://twitter.com/srsk2405" class="footer__social-link">
+<i class="ri-twitter-fill"></i>
+</a>
+</li>
+
+<li class="footer__social-item">
+<a href="https://github.com/saikrishnasanda/" class="footer__social-link">
+<i class="ri-github-fill"></i>
+</a>
+</li>
+</ul>
+</div>
+<div class="footer__content">
+<h4 class="footer__title">Email Me</h4>
+<a href="mailto:reddysaikrishnaa.s@gmail.com" class="footer__contact">reddysaikrishnaa.s@gmail.com</a>
+</div>
+</div>
+<p class="footer__copyright">Coded with Love ❤️ & Coffee ☕️</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>
